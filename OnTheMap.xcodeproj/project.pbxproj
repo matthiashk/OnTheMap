@@ -15,6 +15,8 @@
 		F25885F41E89BA9400D14B20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25885F21E89BA9400D14B20 /* LaunchScreen.storyboard */; };
 		F25885FF1E89BA9400D14B20 /* OnTheMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25885FE1E89BA9400D14B20 /* OnTheMapTests.swift */; };
 		F258860A1E89BA9400D14B20 /* OnTheMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25886091E89BA9400D14B20 /* OnTheMapUITests.swift */; };
+		F25886181E89BCBF00D14B20 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25886171E89BCBF00D14B20 /* LoginViewController.swift */; };
+		F258861A1E89C62E00D14B20 /* GCDBlackBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25886191E89C62E00D14B20 /* GCDBlackBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F25886051E89BA9400D14B20 /* OnTheMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnTheMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25886091E89BA9400D14B20 /* OnTheMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTheMapUITests.swift; sourceTree = "<group>"; };
 		F258860B1E89BA9400D14B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25886171E89BCBF00D14B20 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F25886191E89C62E00D14B20 /* GCDBlackBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDBlackBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				F25885F01E89BA9400D14B20 /* Assets.xcassets */,
 				F25885F21E89BA9400D14B20 /* LaunchScreen.storyboard */,
 				F25885F51E89BA9400D14B20 /* Info.plist */,
+				F25886171E89BCBF00D14B20 /* LoginViewController.swift */,
+				F25886191E89C62E00D14B20 /* GCDBlackBox.swift */,
 			);
 			path = OnTheMap;
 			sourceTree = "<group>";
@@ -262,9 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F25886181E89BCBF00D14B20 /* LoginViewController.swift in Sources */,
 				F25885EC1E89BA9400D14B20 /* SecondViewController.swift in Sources */,
 				F25885E81E89BA9400D14B20 /* AppDelegate.swift in Sources */,
 				F25885EA1E89BA9400D14B20 /* FirstViewController.swift in Sources */,
+				F258861A1E89C62E00D14B20 /* GCDBlackBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
