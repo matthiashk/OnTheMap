@@ -41,6 +41,12 @@ class LoginViewController: UIViewController {
     
     @IBAction func login(_ sender: AnyObject) {
         
+        
+        // login immediately to test tabbarcontroller code
+        completeLogin()
+        
+        
+        
         //print("email = \(userEmail.text), password = \(userPassword.text)")
         
         // check for empty textfield, either user or password -> alert user

@@ -17,6 +17,7 @@
 		F258860A1E89BA9400D14B20 /* OnTheMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25886091E89BA9400D14B20 /* OnTheMapUITests.swift */; };
 		F25886181E89BCBF00D14B20 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25886171E89BCBF00D14B20 /* LoginViewController.swift */; };
 		F258861A1E89C62E00D14B20 /* GCDBlackBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25886191E89C62E00D14B20 /* GCDBlackBox.swift */; };
+		F258861C1E8B028A00D14B20 /* StudentStudyLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F258861B1E8B028A00D14B20 /* StudentStudyLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		F258860B1E89BA9400D14B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F25886171E89BCBF00D14B20 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F25886191E89C62E00D14B20 /* GCDBlackBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDBlackBox.swift; sourceTree = "<group>"; };
+		F258861B1E8B028A00D14B20 /* StudentStudyLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentStudyLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				F25885F51E89BA9400D14B20 /* Info.plist */,
 				F25886171E89BCBF00D14B20 /* LoginViewController.swift */,
 				F25886191E89C62E00D14B20 /* GCDBlackBox.swift */,
+				F258861B1E8B028A00D14B20 /* StudentStudyLocation.swift */,
 			);
 			path = OnTheMap;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			files = (
 				F25886181E89BCBF00D14B20 /* LoginViewController.swift in Sources */,
 				F25885EC1E89BA9400D14B20 /* SecondViewController.swift in Sources */,
+				F258861C1E8B028A00D14B20 /* StudentStudyLocation.swift in Sources */,
 				F25885E81E89BA9400D14B20 /* AppDelegate.swift in Sources */,
 				F25885EA1E89BA9400D14B20 /* FirstViewController.swift in Sources */,
 				F258861A1E89C62E00D14B20 /* GCDBlackBox.swift in Sources */,
